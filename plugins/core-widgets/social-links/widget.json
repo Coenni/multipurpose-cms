@@ -1,0 +1,40 @@
+{
+  "name": "Social Links",
+  "slug": "social-links",
+  "version": "1.0.0",
+  "author": "CMS Team",
+  "category": "social",
+  "description": "Display social media links",
+  "settings": {
+    "title": {
+      "type": "text",
+      "label": "Widget Title",
+      "default": "Follow Us"
+    },
+    "facebook": {
+      "type": "text",
+      "label": "Facebook URL",
+      "default": ""
+    },
+    "twitter": {
+      "type": "text",
+      "label": "Twitter URL",
+      "default": ""
+    },
+    "instagram": {
+      "type": "text",
+      "label": "Instagram URL",
+      "default": ""
+    },
+    "linkedin": {
+      "type": "text",
+      "label": "LinkedIn URL",
+      "default": ""
+    },
+    "youtube": {
+      "type": "text",
+      "label": "YouTube URL",
+      "default": ""
+    }
+  }
+}

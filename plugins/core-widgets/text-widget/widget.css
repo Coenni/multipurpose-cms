@@ -1,0 +1,16 @@
+.text-widget .widget-content {
+  line-height: 1.6;
+}
+
+.text-widget .widget-content p {
+  margin-bottom: 1rem;
+}
+
+.text-widget .widget-content a {
+  color: var(--primary-color, #3B82F6);
+  text-decoration: none;
+}
+
+.text-widget .widget-content a:hover {
+  text-decoration: underline;
+}

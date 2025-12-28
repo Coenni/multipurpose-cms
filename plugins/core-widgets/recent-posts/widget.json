@@ -1,0 +1,32 @@
+{
+  "name": "Recent Posts",
+  "slug": "recent-posts",
+  "version": "1.0.0",
+  "author": "CMS Team",
+  "category": "content",
+  "description": "Display a list of recent blog posts",
+  "settings": {
+    "title": {
+      "type": "text",
+      "label": "Widget Title",
+      "default": "Recent Posts"
+    },
+    "numberOfPosts": {
+      "type": "number",
+      "label": "Number of Posts",
+      "default": 5,
+      "min": 1,
+      "max": 10
+    },
+    "showExcerpt": {
+      "type": "boolean",
+      "label": "Show Excerpt",
+      "default": false
+    },
+    "showDate": {
+      "type": "boolean",
+      "label": "Show Date",
+      "default": true
+    }
+  }
+}
