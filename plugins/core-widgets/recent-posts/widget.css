@@ -1,0 +1,14 @@
+.recent-posts-widget ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recent-posts-widget a {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.recent-posts-widget a:hover {
+  color: var(--primary-color, #3B82F6);
+}

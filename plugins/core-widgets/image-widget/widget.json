@@ -1,0 +1,35 @@
+{
+  "name": "Image Widget",
+  "slug": "image-widget",
+  "version": "1.0.0",
+  "author": "CMS Team",
+  "category": "media",
+  "description": "Display an image with optional link",
+  "settings": {
+    "title": {
+      "type": "text",
+      "label": "Widget Title",
+      "default": ""
+    },
+    "imageUrl": {
+      "type": "text",
+      "label": "Image URL",
+      "default": "https://via.placeholder.com/300x200"
+    },
+    "altText": {
+      "type": "text",
+      "label": "Alt Text",
+      "default": "Image"
+    },
+    "linkUrl": {
+      "type": "text",
+      "label": "Link URL (optional)",
+      "default": ""
+    },
+    "openInNewTab": {
+      "type": "boolean",
+      "label": "Open Link in New Tab",
+      "default": false
+    }
+  }
+}

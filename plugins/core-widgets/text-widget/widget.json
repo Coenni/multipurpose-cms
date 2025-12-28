@@ -1,0 +1,20 @@
+{
+  "name": "Text Widget",
+  "slug": "text-widget",
+  "version": "1.0.0",
+  "author": "CMS Team",
+  "category": "basic",
+  "description": "Display custom text or HTML content",
+  "settings": {
+    "title": {
+      "type": "text",
+      "label": "Widget Title",
+      "default": "Text Widget"
+    },
+    "content": {
+      "type": "textarea",
+      "label": "Content",
+      "default": "Add your custom text or HTML here."
+    }
+  }
+}

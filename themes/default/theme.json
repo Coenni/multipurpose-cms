@@ -1,0 +1,78 @@
+{
+  "name": "Default Theme",
+  "slug": "default",
+  "version": "1.0.0",
+  "author": "CMS Team",
+  "description": "Default multipurpose theme with clean design",
+  "supports": {
+    "widgets": true,
+    "menus": true,
+    "ecommerce": true
+  },
+  "widgetAreas": [
+    {
+      "id": "sidebar-primary",
+      "name": "Primary Sidebar",
+      "description": "Main sidebar widget area"
+    },
+    {
+      "id": "footer-1",
+      "name": "Footer Column 1",
+      "description": "First column in footer"
+    },
+    {
+      "id": "footer-2",
+      "name": "Footer Column 2",
+      "description": "Second column in footer"
+    },
+    {
+      "id": "footer-3",
+      "name": "Footer Column 3",
+      "description": "Third column in footer"
+    }
+  ],
+  "customization": {
+    "colors": {
+      "primary": {
+        "default": "#3B82F6",
+        "label": "Primary Color",
+        "type": "color"
+      },
+      "secondary": {
+        "default": "#10B981",
+        "label": "Secondary Color",
+        "type": "color"
+      },
+      "accent": {
+        "default": "#F59E0B",
+        "label": "Accent Color",
+        "type": "color"
+      }
+    },
+    "typography": {
+      "headingFont": {
+        "default": "system-ui, sans-serif",
+        "label": "Heading Font",
+        "type": "font"
+      },
+      "bodyFont": {
+        "default": "system-ui, sans-serif",
+        "label": "Body Font",
+        "type": "font"
+      }
+    },
+    "layout": {
+      "containerWidth": {
+        "default": "1200px",
+        "label": "Container Width",
+        "type": "text"
+      },
+      "sidebar": {
+        "default": "right",
+        "label": "Sidebar Position",
+        "type": "select",
+        "options": ["left", "right", "none"]
+      }
+    }
+  }
+}

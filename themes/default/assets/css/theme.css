@@ -1,0 +1,167 @@
+:root {
+  --primary-color: #3B82F6;
+  --secondary-color: #10B981;
+  --accent-color: #F59E0B;
+  --text-color: #1F2937;
+  --bg-color: #FFFFFF;
+  --container-width: 1200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.theme-header {
+  background: var(--primary-color);
+  color: white;
+  padding: 1.5rem 0;
+}
+
+.theme-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.theme-nav {
+  background: #f3f4f6;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.theme-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.theme-nav a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.theme-nav a:hover {
+  color: var(--primary-color);
+}
+
+.theme-main {
+  min-height: 60vh;
+  padding: 3rem 0;
+}
+
+.theme-content {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 2rem;
+}
+
+.theme-content.no-sidebar {
+  grid-template-columns: 1fr;
+}
+
+.theme-sidebar {
+  background: #f9fafb;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.widget {
+  margin-bottom: 2rem;
+}
+
+.widget-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--primary-color);
+}
+
+.theme-footer {
+  background: #1F2937;
+  color: white;
+  padding: 3rem 0 1.5rem;
+  margin-top: 4rem;
+}
+
+.footer-widgets {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-copyright {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 768px) {
+  .theme-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .footer-widgets {
+    grid-template-columns: 1fr;
+  }
+  
+  .theme-nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Utility Classes */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background: var(--secondary-color);
+}
+
+.card {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}

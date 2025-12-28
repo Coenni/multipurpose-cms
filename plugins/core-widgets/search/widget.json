@@ -1,0 +1,25 @@
+{
+  "name": "Search",
+  "slug": "search",
+  "version": "1.0.0",
+  "author": "CMS Team",
+  "category": "utility",
+  "description": "Display a search form",
+  "settings": {
+    "title": {
+      "type": "text",
+      "label": "Widget Title",
+      "default": "Search"
+    },
+    "placeholder": {
+      "type": "text",
+      "label": "Placeholder Text",
+      "default": "Search..."
+    },
+    "buttonText": {
+      "type": "text",
+      "label": "Button Text",
+      "default": "Search"
+    }
+  }
+}
